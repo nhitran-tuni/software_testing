@@ -26,6 +26,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - name: npm install
+      run: npm install
     - run: npm test
     - run: npm test:coveralls
     - name: Coveralls Parallel
