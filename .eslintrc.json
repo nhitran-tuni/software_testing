@@ -1,0 +1,28 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true
+    },
+    "extends": "eslint:recommended",
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-dupe-else-if": ["error"],
+        "no-redeclare": "error",
+        "no-unused-vars": ["error", {
+            "argsIgnorePattern": "^_",
+            "varsIgnorePattern": "^_"
+            }
+          ],
+        "no-var": "error",
+        "prefer-const": "warn",
+        "no-unreachable": "error",
+        "no-self-assign": "warn",
+    }
+}
