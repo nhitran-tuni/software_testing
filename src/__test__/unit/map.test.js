@@ -1,6 +1,6 @@
 import map from "../../map";
 
-describe('map should create an array of values by running each element of array thru iteratee.', () => {
+describe('map should create an array of values by running each element of array thru iterate.', () => {
     it('should return correctly when given empty array', () => {
         const square = n => n*n;
         const array = [];

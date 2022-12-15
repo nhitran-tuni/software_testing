@@ -3,7 +3,6 @@ import map from "../../map";
 import reduce from "../../reduce";
 import add from "../../add";
 import ceil from "../../ceil";
-import divide from "../../divide";
 
 const cart = [
     {
